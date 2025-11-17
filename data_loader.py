@@ -87,4 +87,3 @@ def load_connections(api: overpy.Overpass, bbox: Tuple, stations: List[Dict]) ->
         print(f"Ошибка при загрузке путей: {e}")
         time.sleep(2)
         return []
-
